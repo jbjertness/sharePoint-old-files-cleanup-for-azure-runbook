@@ -41,11 +41,11 @@ Built for scenarios where you need to reclaim storage space in SharePoint sites 
 
 ## Warning
 
-- No version history cleanup — only deletes current files (not old versions)
-- Recycle bin — deleted items go to the site's recycle bin (recoverable for ~93 days based on SharePoint defaults)
+- No version history cleanup : only deletes current files (not old versions)
+- Recycle bin : deleted items go to the site's recycle bin (recoverable for ~93 days based on SharePoint defaults)
 - Retention policies / legal holds — may prevent deletion (script skips locked items)
-- Throttling — large libraries will take hours/days; the script will continue to retry until finished or cancelled so be patient 😌
-- No restore — use DryRun religiously before real runs
+- Throttling : large libraries will take hours/days; the script will continue to retry until finished or cancelled so be patient 😌
+- No restore : use DryRun religiously before real runs
 
 ## Installation / Setup
 
