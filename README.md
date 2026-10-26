@@ -1,6 +1,6 @@
 # SharePoint Old Files Cleanup
 
-A PowerShell script that uses **Microsoft Graph API** to recursively scan a SharePoint Online document library (or subfolder) and **permanently delete** old files older than a specified number of years — optionally limited to specific file extensions (e.g., Excel files like `.xlsx`, `.xlsm`, etc.).
+A PowerShell script that uses **Microsoft Graph API** to recursively scan a SharePoint Online document library (or subfolder) and **permanently delete** old files older than a specified number of years. Also included are filter functions for specific file extensions (e.g., Excel files like `.xlsx`, `.xlsm`, etc.).
 
 Built for scenarios where you need to reclaim storage space in SharePoint sites by removing outdated documents, while respecting retention/lock policies (skips locked/checked-out files).
 
